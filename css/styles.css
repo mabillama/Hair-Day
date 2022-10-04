@@ -71,6 +71,15 @@ nav li a:hover {
   list-style-type: none;
   display: inline-block;
   margin: 20px;
+  transition: color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.nav-cta:hover {
+  background-color: #2c5a46;
+  color: #fff;
+  transition: color 0.5s;
+  transition: background-color 0.5s;
 }
 
 /* Main */
@@ -178,14 +187,13 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  column-gap: 10rem;
+}
 
+footer p {
   color: white;
 }
 
 footer img {
   width: 120px;
-}
-
-footer > div {
-  margin: 0 40px;
 }
